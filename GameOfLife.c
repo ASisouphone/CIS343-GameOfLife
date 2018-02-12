@@ -192,7 +192,7 @@ void printWorld(int*** world, int row, int col) {
 
 
 /******************************************************************************
- * Prints the current world information in a formatted manner
+ * Counts all the alive neighboring cells for a specfic cell in the world
  * @param world the current world array
  * @param r the current row value being evaluated (i)
  * @param c the current column value being evaluated (j)
